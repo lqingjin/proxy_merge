@@ -69,10 +69,10 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
   skip-cert-verify: true
-- name: 油管绵阿羊_Canada_hysteria_31
-  server: 104.234.70.41
+- name: 油管绵阿羊_United States_hysteria_31
+  server: 108.181.2.154
   type: hysteria
-  port: 57153
+  port: 33445
   auth-str: dongtaiwang.com
   alpn:
   - h3
@@ -91,10 +91,10 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
   skip-cert-verify: true
-- name: 油管绵阿羊_Canada_hysteria_51
-  server: 104.234.70.6
+- name: 油管绵阿羊_United States_hysteria_51
+  server: 167.160.91.116
   type: hysteria
-  port: 11330
+  port: 55009
   auth-str: dongtaiwang.com
   alpn:
   - h3
@@ -248,9 +248,9 @@ proxy-groups:
   - 油管绵阿羊_United States_hysteria_02
   - 油管绵阿羊_United States_hysteria_11
   - 油管绵阿羊_United States_hysteria_21
-  - 油管绵阿羊_Canada_hysteria_31
+  - 油管绵阿羊_United States_hysteria_31
   - 油管绵阿羊_Taiwan_hysteria_41
-  - 油管绵阿羊_Canada_hysteria_51
+  - 油管绵阿羊_United States_hysteria_51
   - 油管绵阿羊_Taiwan_hysteria_61
   - 油管绵阿羊_United States_tuic_71
   - 油管绵阿羊_United States_hysteria_81
@@ -273,9 +273,9 @@ proxy-groups:
   - 油管绵阿羊_United States_hysteria_02
   - 油管绵阿羊_United States_hysteria_11
   - 油管绵阿羊_United States_hysteria_21
-  - 油管绵阿羊_Canada_hysteria_31
+  - 油管绵阿羊_United States_hysteria_31
   - 油管绵阿羊_Taiwan_hysteria_41
-  - 油管绵阿羊_Canada_hysteria_51
+  - 油管绵阿羊_United States_hysteria_51
   - 油管绵阿羊_Taiwan_hysteria_61
   - 油管绵阿羊_United States_tuic_71
   - 油管绵阿羊_United States_hysteria_81
