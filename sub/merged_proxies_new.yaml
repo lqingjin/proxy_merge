@@ -27,19 +27,8 @@ dns:
 proxies:
 - name: 油管绵阿羊_United States_hysteria_01
   type: hysteria
-  server: 167.160.90.251
+  server: 167.160.90.252
   port: 48089
-  auth-str: dongtaiwang.com
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-  skip-cert-verify: true
-- name: 油管绵阿羊_United States_hysteria_02
-  type: hysteria
-  server: 108.181.22.239
-  port: 41146
   auth-str: dongtaiwang.com
   alpn:
   - h3
@@ -80,11 +69,11 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
   skip-cert-verify: true
-- name: 油管绵阿羊_Taiwan_hysteria_41
+- name: 油管绵阿羊_United States_hysteria_41
+  server: 108.181.2.154
   type: hysteria
-  server: www.dtku46.xyz
-  port: 11223
-  auth-str: mqoE9qSoyMFa
+  port: 33445
+  auth-str: dongtaiwang.com
   alpn:
   - h3
   protocol: udp
@@ -102,30 +91,28 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
   skip-cert-verify: true
-- name: 油管绵阿羊_Taiwan_hysteria_61
+- name: 油管绵阿羊_United States_hysteria_61
   type: hysteria
-  server: www.dtku46.xyz
-  port: 11223
-  auth-str: mqoE9qSoyMFa
+  server: 64.110.25.10
+  port: 44556
+  auth-str: dongtaiwang.com
   alpn:
   - h3
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
   skip-cert-verify: true
-- name: 油管绵阿羊_United States_tuic_71
+- name: 油管绵阿羊_United States_hysteria_71
+  type: hysteria
   server: 64.110.25.10
-  port: 33445
-  type: tuic
-  uuid: 670998c6-a78f-43cc-86aa-29292476e040
-  password: dongtaiwang.com
-  sni: bing.com
+  port: 44556
+  auth-str: dongtaiwang.com
   alpn:
   - h3
-  request-timeout: 8000
-  udp-relay-mode: native
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
   skip-cert-verify: true
-  congestion-controller: bbr
 - name: 油管绵阿羊_United States_hysteria_81
   type: hysteria
   server: 62.204.54.81
@@ -208,8 +195,8 @@ proxies:
   - h3
 - name: 油管绵阿羊_Taiwan_hy2_0
   type: hysteria2
-  server: www.dtku46.xyz
-  port: 55307
+  server: www4.dtku49.xyz
+  port: 64016
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -245,14 +232,13 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - 油管绵阿羊_United States_hysteria_01
-  - 油管绵阿羊_United States_hysteria_02
   - 油管绵阿羊_United States_hysteria_11
   - 油管绵阿羊_United States_hysteria_21
   - 油管绵阿羊_United States_hysteria_31
-  - 油管绵阿羊_Taiwan_hysteria_41
+  - 油管绵阿羊_United States_hysteria_41
   - 油管绵阿羊_United States_hysteria_51
-  - 油管绵阿羊_Taiwan_hysteria_61
-  - 油管绵阿羊_United States_tuic_71
+  - 油管绵阿羊_United States_hysteria_61
+  - 油管绵阿羊_United States_hysteria_71
   - 油管绵阿羊_United States_hysteria_81
   - 油管绵阿羊_Taiwan_hysteria_91
   - 油管绵阿羊_United States_hy_0
@@ -270,14 +256,13 @@ proxy-groups:
   tolerance: 50
   proxies:
   - 油管绵阿羊_United States_hysteria_01
-  - 油管绵阿羊_United States_hysteria_02
   - 油管绵阿羊_United States_hysteria_11
   - 油管绵阿羊_United States_hysteria_21
   - 油管绵阿羊_United States_hysteria_31
-  - 油管绵阿羊_Taiwan_hysteria_41
+  - 油管绵阿羊_United States_hysteria_41
   - 油管绵阿羊_United States_hysteria_51
-  - 油管绵阿羊_Taiwan_hysteria_61
-  - 油管绵阿羊_United States_tuic_71
+  - 油管绵阿羊_United States_hysteria_61
+  - 油管绵阿羊_United States_hysteria_71
   - 油管绵阿羊_United States_hysteria_81
   - 油管绵阿羊_Taiwan_hysteria_91
   - 油管绵阿羊_United States_hy_0
