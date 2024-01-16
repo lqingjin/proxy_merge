@@ -159,7 +159,7 @@ proxies:
 - name: 油管绵阿羊_Taiwan_hysteria_91
   type: hysteria
   server: www.dtku50.xyz
-  port: 56252
+  port: 32408
   sni: www.amazon.cn
   skip-cert-verify: true
   alpn:
