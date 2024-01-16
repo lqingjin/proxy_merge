@@ -133,16 +133,12 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
   skip-cert-verify: true
-- name: 油管绵阿羊_United States_hysteria_71
-  type: hysteria
-  server: 64.110.25.10
-  port: 44556
-  auth-str: dongtaiwang.com
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
+- name: 油管绵阿羊_United States_hysteria2_71
+  type: hysteria2
+  server: 108.181.24.77
+  port: 18775
+  password: dongtaiwang.com
+  sni: bing.com
   skip-cert-verify: true
 - name: 油管绵阿羊_United States_hysteria_81
   type: hysteria
@@ -213,9 +209,9 @@ proxies:
 - name: 油管绵阿羊_France_hy_3
   type: hysteria
   server: 51.158.54.46
-  port: 11926
-  ports: 11926
-  auth_str: Trz2alKwzCImRAXI3nXfpo1ylpHfqOL8s1vageWKoyjjvWeMVs
+  port: 55396
+  ports: 55396
+  auth_str: dongtaiwang.com
   up: 80
   down: 100
   fast-open: true
@@ -226,16 +222,16 @@ proxies:
   - h3
 - name: 油管绵阿羊_United States_hy2_0
   type: hysteria2
-  server: 64.110.25.11
-  port: 33337
+  server: 108.181.24.77
+  port: 18775
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
 - name: 油管绵阿羊_United States_hy2_1
   type: hysteria2
-  server: 64.110.25.11
-  port: 33337
+  server: 108.181.24.77
+  port: 18775
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -250,8 +246,8 @@ proxies:
   skip-cert-verify: true
 - name: 油管绵阿羊_United States_hy2_3
   type: hysteria2
-  server: 64.110.25.11
-  port: 33337
+  server: 108.181.24.77
+  port: 18775
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -270,7 +266,7 @@ proxy-groups:
   - 油管绵阿羊_Canada_vmess_41
   - 油管绵阿羊_Canada_vmess_51
   - 油管绵阿羊_Taiwan_hysteria_61
-  - 油管绵阿羊_United States_hysteria_71
+  - 油管绵阿羊_United States_hysteria2_71
   - 油管绵阿羊_United States_hysteria_81
   - 油管绵阿羊_Taiwan_hysteria_91
   - 油管绵阿羊_United States_hy_0
@@ -295,7 +291,7 @@ proxy-groups:
   - 油管绵阿羊_Canada_vmess_41
   - 油管绵阿羊_Canada_vmess_51
   - 油管绵阿羊_Taiwan_hysteria_61
-  - 油管绵阿羊_United States_hysteria_71
+  - 油管绵阿羊_United States_hysteria2_71
   - 油管绵阿羊_United States_hysteria_81
   - 油管绵阿羊_Taiwan_hysteria_91
   - 油管绵阿羊_United States_hy_0
