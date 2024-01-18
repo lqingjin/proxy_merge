@@ -141,13 +141,10 @@ proxies:
 - name: 油管绵阿羊_France_hysteria2_71
   type: hysteria2
   server: 51.158.54.46
-  password: d64df453-34f0-4fa8-b115-e6805f6d54db
-  obfs: salamander
-  obfs-password: d64df453-34f0-4fa8-b115-e6805f6d54db
+  port: 44550
+  password: dongtaiwang.com
+  sni: bing.com
   skip-cert-verify: true
-  port: 23400
-  up: 11 Mbps
-  down: 55 Mbps
 - name: 油管绵阿羊_United States_hysteria2_81
   type: hysteria2
   server: 45.150.165.84
