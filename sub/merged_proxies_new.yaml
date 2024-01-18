@@ -25,7 +25,33 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 油管绵阿羊_United States_ss_01
+- name: 油管绵阿羊_Canada_vless_01
+  type: vless
+  server: dongtaiwang3.com
+  port: 443
+  uuid: a9202ced-3185-489c-8b28-74e9a00d894d
+  tls: true
+  servername: dongtaiwang.dtku47.xyz
+  network: ws
+  ws-opts:
+    path: /eobjws
+    headers:
+      host: dongtaiwang.dtku47.xyz
+  client-fingerprint: chrome
+- name: 油管绵阿羊_Canada_vless_02
+  type: vless
+  server: dongtaiwang2.com
+  port: 443
+  uuid: a9202ced-3185-489c-8b28-74e9a00d894d
+  tls: true
+  servername: dongtaiwang.dtku47.xyz
+  network: ws
+  ws-opts:
+    path: /eobjws
+    headers:
+      host: dongtaiwang.dtku47.xyz
+  client-fingerprint: chrome
+- name: 油管绵阿羊_United States_ss_11
   type: ss
   server: 167.160.90.252
   port: 8883
@@ -45,21 +71,6 @@ proxies:
     min-streams: '16'
     statistic: true
     only-tcp: false
-- name: 油管绵阿羊_Canada_vmess_11
-  type: vmess
-  server: dongtaiwang2.com
-  port: 443
-  cipher: auto
-  uuid: f5c180eb-fbce-49ac-9029-482eca9385c0
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /gzogws
-    headers:
-      host: xray1.freeh1.xyz
 - name: 油管绵阿羊_Canada_vless_21
   type: vless
   server: dongtaiwang2.com
@@ -253,8 +264,9 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
-  - 油管绵阿羊_United States_ss_01
-  - 油管绵阿羊_Canada_vmess_11
+  - 油管绵阿羊_Canada_vless_01
+  - 油管绵阿羊_Canada_vless_02
+  - 油管绵阿羊_United States_ss_11
   - 油管绵阿羊_Canada_vless_21
   - 油管绵阿羊_Canada_vless_31
   - 油管绵阿羊_Canada_vmess_41
@@ -277,8 +289,9 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - 油管绵阿羊_United States_ss_01
-  - 油管绵阿羊_Canada_vmess_11
+  - 油管绵阿羊_Canada_vless_01
+  - 油管绵阿羊_Canada_vless_02
+  - 油管绵阿羊_United States_ss_11
   - 油管绵阿羊_Canada_vless_21
   - 油管绵阿羊_Canada_vless_31
   - 油管绵阿羊_Canada_vmess_41
