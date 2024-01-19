@@ -249,8 +249,8 @@ proxies:
   skip-cert-verify: true
 - name: 油管绵阿羊_United States_hy2_3
   type: hysteria2
-  server: 64.110.25.11
-  port: 33337
+  server: 108.181.24.77
+  port: 18775
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
