@@ -97,7 +97,7 @@ proxies:
     headers:
       host: fr.freeh1.xyz
   client-fingerprint: chrome
-- name: 油管绵阿羊_United States_vmess_41
+- name: 油管绵阿羊_None_vmess_41
   type: vmess
   server: cm.dongtaiwang3.com
   port: 443
@@ -266,7 +266,7 @@ proxy-groups:
   - 油管绵阿羊_United States_ss_11
   - 油管绵阿羊_United States_vless_21
   - 油管绵阿羊_France_vless_31
-  - 油管绵阿羊_United States_vmess_41
+  - 油管绵阿羊_None_vmess_41
   - 油管绵阿羊_Canada_vmess_51
   - 油管绵阿羊_Taiwan_hysteria_61
   - 油管绵阿羊_France_hysteria2_71
@@ -291,7 +291,7 @@ proxy-groups:
   - 油管绵阿羊_United States_ss_11
   - 油管绵阿羊_United States_vless_21
   - 油管绵阿羊_France_vless_31
-  - 油管绵阿羊_United States_vmess_41
+  - 油管绵阿羊_None_vmess_41
   - 油管绵阿羊_Canada_vmess_51
   - 油管绵阿羊_Taiwan_hysteria_61
   - 油管绵阿羊_France_hysteria2_71
