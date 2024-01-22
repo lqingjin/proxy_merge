@@ -38,9 +38,9 @@ proxies:
     headers:
       host: dongtaiwang.dtku47.xyz
   client-fingerprint: chrome
-- name: 油管绵阿羊_France_vless_02
+- name: 油管绵阿羊_United States_vless_02
   type: vless
-  server: fr.freeh1.xyz
+  server: cu.dongtaiwang3.com
   port: 443
   uuid: 7b671cd2-233d-406c-88da-1c687727dc52
   tls: true
@@ -84,9 +84,9 @@ proxies:
     headers:
       host: v2ray3.freegradely.xyz
   client-fingerprint: chrome
-- name: 油管绵阿羊_France_vless_31
+- name: 油管绵阿羊_United States_vless_31
   type: vless
-  server: fr.freeh1.xyz
+  server: cu.dongtaiwang3.com
   port: 443
   uuid: 7b671cd2-233d-406c-88da-1c687727dc52
   tls: true
@@ -262,10 +262,10 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - 油管绵阿羊_Canada_vless_01
-  - 油管绵阿羊_France_vless_02
+  - 油管绵阿羊_United States_vless_02
   - 油管绵阿羊_United States_ss_11
   - 油管绵阿羊_United States_vless_21
-  - 油管绵阿羊_France_vless_31
+  - 油管绵阿羊_United States_vless_31
   - 油管绵阿羊_None_vmess_41
   - 油管绵阿羊_Canada_vmess_51
   - 油管绵阿羊_Taiwan_hysteria_61
@@ -287,10 +287,10 @@ proxy-groups:
   tolerance: 50
   proxies:
   - 油管绵阿羊_Canada_vless_01
-  - 油管绵阿羊_France_vless_02
+  - 油管绵阿羊_United States_vless_02
   - 油管绵阿羊_United States_ss_11
   - 油管绵阿羊_United States_vless_21
-  - 油管绵阿羊_France_vless_31
+  - 油管绵阿羊_United States_vless_31
   - 油管绵阿羊_None_vmess_41
   - 油管绵阿羊_Canada_vmess_51
   - 油管绵阿羊_Taiwan_hysteria_61
