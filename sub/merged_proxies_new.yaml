@@ -29,18 +29,18 @@ proxies:
   type: vless
   server: 23.227.38.51
   port: 443
-  uuid: a9202ced-3185-489c-8b28-74e9a00d894d
+  uuid: 7b671cd2-233d-406c-88da-1c687727dc52
   tls: true
-  servername: dongtaiwang.dtku47.xyz
+  servername: fr.freeh1.xyz
   network: ws
   ws-opts:
-    path: /eobjws
+    path: /kfhaws
     headers:
-      host: dongtaiwang.dtku47.xyz
+      host: fr.freeh1.xyz
   client-fingerprint: chrome
 - name: 油管绵阿羊_Canada_vless_02
   type: vless
-  server: dongtaiwang2.com
+  server: 23.227.39.51
   port: 443
   uuid: 7b671cd2-233d-406c-88da-1c687727dc52
   tls: true
@@ -55,14 +55,14 @@ proxies:
   type: vless
   server: 172.67.70.101
   port: 443
-  uuid: a9202ced-3185-489c-8b28-74e9a00d894d
+  uuid: 7b671cd2-233d-406c-88da-1c687727dc52
   tls: true
-  servername: dongtaiwang.dtku47.xyz
+  servername: fr.freeh1.xyz
   network: ws
   ws-opts:
-    path: /eobjws
+    path: /kfhaws
     headers:
-      host: dongtaiwang.dtku47.xyz
+      host: fr.freeh1.xyz
   client-fingerprint: chrome
 - name: 油管绵阿羊_United States_vless_12
   type: vless
@@ -245,10 +245,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: 油管绵阿羊_United States_hy2_2
+- name: 油管绵阿羊_France_hy2_2
   type: hysteria2
-  server: 64.110.25.11
-  port: 33337
+  server: 62.210.103.0
+  port: 52465
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -285,7 +285,7 @@ proxy-groups:
   - 油管绵阿羊_United States_hy_3
   - 油管绵阿羊_France_hy2_0
   - 油管绵阿羊_United States_hy2_1
-  - 油管绵阿羊_United States_hy2_2
+  - 油管绵阿羊_France_hy2_2
   - 油管绵阿羊_United States_hy2_3
 - name: 自动选择
   type: url-test
@@ -311,7 +311,7 @@ proxy-groups:
   - 油管绵阿羊_United States_hy_3
   - 油管绵阿羊_France_hy2_0
   - 油管绵阿羊_United States_hy2_1
-  - 油管绵阿羊_United States_hy2_2
+  - 油管绵阿羊_France_hy2_2
   - 油管绵阿羊_United States_hy2_3
 rules:
 - DOMAIN,clash.razord.top,DIRECT
