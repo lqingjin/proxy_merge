@@ -25,7 +25,21 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: 油管绵阿羊_United States_vless_01
+- name: 油管绵阿羊_France_vless_01
+  type: vless
+  server: 51.159.103.141
+  port: 12207
+  udp: true
+  uuid: 63925418-7ae3-4da1-9e73-fb3fc5af6fdb
+  tls: true
+  servername: s0.awsstatic.com
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: A-DHKUq8W8KZKM1gr8xcKCoqKSct73NtdSjUZMhFcEM
+    short-id: 6ba85179e30d4fc2
+  client-fingerprint: chrome
+- name: 油管绵阿羊_United States_vless_02
   type: vless
   server: 109.104.152.4
   port: 16414
@@ -39,7 +53,7 @@ proxies:
     public-key: QR_5pj5Kj8I3sO6-6ywnM7B1fE2-btdv-IFEas2JHgE
     short-id: 6ba85179e30d4fc2
   client-fingerprint: chrome
-- name: 油管绵阿羊_United States_vless_02
+- name: 油管绵阿羊_United States_vless_03
   type: vless
   server: 108.181.5.130
   port: 17346
@@ -53,16 +67,20 @@ proxies:
     public-key: O5x9mSGdETFh_ql4m_2dPEUNBVwCly9XSi9pu1teLls
     short-id: 6ba85179e30d4fc2
   client-fingerprint: chrome
-- name: 油管绵阿羊_United States_vmess_11
-  type: vmess
-  server: 108.181.2.154
-  port: 33445
-  cipher: auto
-  uuid: 7de8d7aa-ae4a-4d75-82f4-2e8b46fc0290
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
+- name: 油管绵阿羊_France_vless_11
+  type: vless
+  server: 51.159.103.141
+  port: 12207
+  udp: true
+  uuid: 63925418-7ae3-4da1-9e73-fb3fc5af6fdb
+  tls: true
+  servername: s0.awsstatic.com
+  flow: xtls-rprx-vision
   network: tcp
+  reality-opts:
+    public-key: A-DHKUq8W8KZKM1gr8xcKCoqKSct73NtdSjUZMhFcEM
+    short-id: 6ba85179e30d4fc2
+  client-fingerprint: chrome
 - name: 油管绵阿羊_United States_vmess_21
   type: vmess
   server: 108.181.2.154
@@ -240,9 +258,10 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
-  - 油管绵阿羊_United States_vless_01
+  - 油管绵阿羊_France_vless_01
   - 油管绵阿羊_United States_vless_02
-  - 油管绵阿羊_United States_vmess_11
+  - 油管绵阿羊_United States_vless_03
+  - 油管绵阿羊_France_vless_11
   - 油管绵阿羊_United States_vmess_21
   - 油管绵阿羊_United States_vmess_31
   - 油管绵阿羊_United States_vmess_41
@@ -265,9 +284,10 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - 油管绵阿羊_United States_vless_01
+  - 油管绵阿羊_France_vless_01
   - 油管绵阿羊_United States_vless_02
-  - 油管绵阿羊_United States_vmess_11
+  - 油管绵阿羊_United States_vless_03
+  - 油管绵阿羊_France_vless_11
   - 油管绵阿羊_United States_vmess_21
   - 油管绵阿羊_United States_vmess_31
   - 油管绵阿羊_United States_vmess_41
