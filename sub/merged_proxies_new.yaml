@@ -53,20 +53,6 @@ proxies:
     public-key: QR_5pj5Kj8I3sO6-6ywnM7B1fE2-btdv-IFEas2JHgE
     short-id: 6ba85179e30d4fc2
   client-fingerprint: chrome
-- name: 油管绵阿羊_United States_vless_03
-  type: vless
-  server: 108.181.5.130
-  port: 17346
-  udp: true
-  uuid: 7fc88217-1b18-49b7-bc50-bfe379dc6bf7
-  tls: true
-  servername: d1.awsstatic.com
-  flow: xtls-rprx-vision
-  network: tcp
-  reality-opts:
-    public-key: O5x9mSGdETFh_ql4m_2dPEUNBVwCly9XSi9pu1teLls
-    short-id: 6ba85179e30d4fc2
-  client-fingerprint: chrome
 - name: 油管绵阿羊_France_vless_11
   type: vless
   server: 51.159.103.141
@@ -104,14 +90,13 @@ proxies:
   network: tcp
 - name: 油管绵阿羊_United States_vmess_41
   type: vmess
-  server: 108.181.5.18
-  port: 18657
+  server: 108.181.2.154
+  port: 33445
   cipher: auto
-  uuid: 636ba072-493e-4235-b7a8-822bd4e340d5
+  uuid: 7de8d7aa-ae4a-4d75-82f4-2e8b46fc0290
   alterId: 0
   tls: false
   skip-cert-verify: true
-  servername: ''
   network: tcp
 - name: 油管绵阿羊_United States_vmess_51
   type: vmess
@@ -194,15 +179,15 @@ proxies:
   - h3
 - name: 油管绵阿羊_United States_hy_2
   type: hysteria
-  server: 108.181.22.239
-  port: 39967
-  ports: 39967
-  auth_str: dongtaiwang.com
+  server: 167.160.91.115
+  port: 41189
+  ports: 41189
+  auth_str: bWAwIqINo7XDm1fUlXQGBifVIXoYs1ylgVKqWFKzK1XyDKuwNF
   up: 80
   down: 100
   fast-open: true
   protocol: udp
-  sni: bing.com
+  sni: www.amazon.cn
   skip-cert-verify: true
   alpn:
   - h3
@@ -252,6 +237,20 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
+- name: 油管绵阿羊_United States_reality_1
+  type: vless
+  server: 109.104.152.4
+  port: 16414
+  uuid: 80b5b4de-0619-4ac2-b1ff-f2bcc697b641
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: mensura.cdn-apple.com
+  reality-opts:
+    public-key: QR_5pj5Kj8I3sO6-6ywnM7B1fE2-btdv-IFEas2JHgE
+    short-id: 6ba85179e30d4fc2
 proxy-groups:
 - name: 节点选择
   type: select
@@ -260,7 +259,6 @@ proxy-groups:
   - DIRECT
   - 油管绵阿羊_France_vless_01
   - 油管绵阿羊_United States_vless_02
-  - 油管绵阿羊_United States_vless_03
   - 油管绵阿羊_France_vless_11
   - 油管绵阿羊_United States_vmess_21
   - 油管绵阿羊_United States_vmess_31
@@ -278,6 +276,7 @@ proxy-groups:
   - 油管绵阿羊_United States_hy2_1
   - 油管绵阿羊_France_hy2_2
   - 油管绵阿羊_United States_hy2_3
+  - 油管绵阿羊_United States_reality_1
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -286,7 +285,6 @@ proxy-groups:
   proxies:
   - 油管绵阿羊_France_vless_01
   - 油管绵阿羊_United States_vless_02
-  - 油管绵阿羊_United States_vless_03
   - 油管绵阿羊_France_vless_11
   - 油管绵阿羊_United States_vmess_21
   - 油管绵阿羊_United States_vmess_31
@@ -304,6 +302,7 @@ proxy-groups:
   - 油管绵阿羊_United States_hy2_1
   - 油管绵阿羊_France_hy2_2
   - 油管绵阿羊_United States_hy2_3
+  - 油管绵阿羊_United States_reality_1
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
