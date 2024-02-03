@@ -53,6 +53,20 @@ proxies:
     public-key: QR_5pj5Kj8I3sO6-6ywnM7B1fE2-btdv-IFEas2JHgE
     short-id: 6ba85179e30d4fc2
   client-fingerprint: chrome
+- name: 油管绵阿羊_United States_vless_03
+  type: vless
+  server: 108.181.5.130
+  port: 20221
+  udp: true
+  uuid: 8eb74635-0857-4673-9965-f6d928b420c9
+  tls: true
+  servername: www.lovelive-anime.jp
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: abc-YDOgV8WkuXRT9bJH-N_E6LaLJ9_7Sfc5OGajaSU
+    short-id: 6ba85179e30d4fc2
+  client-fingerprint: chrome
 - name: 油管绵阿羊_France_vless_11
   type: vless
   server: 51.159.103.141
@@ -67,16 +81,20 @@ proxies:
     public-key: A-DHKUq8W8KZKM1gr8xcKCoqKSct73NtdSjUZMhFcEM
     short-id: 6ba85179e30d4fc2
   client-fingerprint: chrome
-- name: 油管绵阿羊_United States_vmess_21
-  type: vmess
-  server: 108.181.2.154
-  port: 33445
-  cipher: auto
-  uuid: 7de8d7aa-ae4a-4d75-82f4-2e8b46fc0290
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
+- name: 油管绵阿羊_United States_vless_21
+  type: vless
+  server: 108.181.2.156
+  port: 19695
+  udp: true
+  uuid: 906d367a-a5d2-467c-b476-a29c79215003
+  tls: true
+  servername: lol.secure.dyn.riotcdn.net
+  flow: xtls-rprx-vision
   network: tcp
+  reality-opts:
+    public-key: TETJrb4V6VlHpITM8jXZjFsh1bUav4iPuSVDMjUBVyo
+    short-id: 6ba85179e30d4fc2
+  client-fingerprint: chrome
 - name: 油管绵阿羊_United States_vmess_31
   type: vmess
   server: 108.181.5.18
@@ -88,16 +106,20 @@ proxies:
   skip-cert-verify: true
   servername: ''
   network: tcp
-- name: 油管绵阿羊_United States_vmess_41
-  type: vmess
-  server: 108.181.2.154
-  port: 33445
-  cipher: auto
-  uuid: 7de8d7aa-ae4a-4d75-82f4-2e8b46fc0290
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
+- name: 油管绵阿羊_United States_vless_41
+  type: vless
+  server: 108.181.2.156
+  port: 19695
+  udp: true
+  uuid: 906d367a-a5d2-467c-b476-a29c79215003
+  tls: true
+  servername: lol.secure.dyn.riotcdn.net
+  flow: xtls-rprx-vision
   network: tcp
+  reality-opts:
+    public-key: TETJrb4V6VlHpITM8jXZjFsh1bUav4iPuSVDMjUBVyo
+    short-id: 6ba85179e30d4fc2
+  client-fingerprint: chrome
 - name: 油管绵阿羊_United States_vmess_51
   type: vmess
   server: 108.181.5.18
@@ -179,15 +201,15 @@ proxies:
   - h3
 - name: 油管绵阿羊_United States_hy_2
   type: hysteria
-  server: 167.160.91.115
-  port: 41189
-  ports: 41189
-  auth_str: bWAwIqINo7XDm1fUlXQGBifVIXoYs1ylgVKqWFKzK1XyDKuwNF
+  server: 108.181.22.239
+  port: 39967
+  ports: 39967
+  auth_str: dongtaiwang.com
   up: 80
   down: 100
   fast-open: true
   protocol: udp
-  sni: www.amazon.cn
+  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -259,10 +281,11 @@ proxy-groups:
   - DIRECT
   - 油管绵阿羊_France_vless_01
   - 油管绵阿羊_United States_vless_02
+  - 油管绵阿羊_United States_vless_03
   - 油管绵阿羊_France_vless_11
-  - 油管绵阿羊_United States_vmess_21
+  - 油管绵阿羊_United States_vless_21
   - 油管绵阿羊_United States_vmess_31
-  - 油管绵阿羊_United States_vmess_41
+  - 油管绵阿羊_United States_vless_41
   - 油管绵阿羊_United States_vmess_51
   - 油管绵阿羊_Taiwan_hysteria_61
   - 油管绵阿羊_France_hysteria2_71
@@ -285,10 +308,11 @@ proxy-groups:
   proxies:
   - 油管绵阿羊_France_vless_01
   - 油管绵阿羊_United States_vless_02
+  - 油管绵阿羊_United States_vless_03
   - 油管绵阿羊_France_vless_11
-  - 油管绵阿羊_United States_vmess_21
+  - 油管绵阿羊_United States_vless_21
   - 油管绵阿羊_United States_vmess_31
-  - 油管绵阿羊_United States_vmess_41
+  - 油管绵阿羊_United States_vless_41
   - 油管绵阿羊_United States_vmess_51
   - 油管绵阿羊_Taiwan_hysteria_61
   - 油管绵阿羊_France_hysteria2_71
