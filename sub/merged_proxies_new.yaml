@@ -25,6 +25,246 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- name: 油管绵阿羊_Canada_vmess_01
+  type: vmess
+  server: 23.227.38.11
+  port: 8080
+  cipher: auto
+  uuid: 9084653a-ee34-4293-979e-7c2b50dffb84
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: configured-creek-relating-theater.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: 9084653a-ee34-4293-979e-7c2b50dffb84-vm
+    headers:
+      host: configured-creek-relating-theater.trycloudflare.com
+- name: 油管绵阿羊_Canada_vmess_02
+  type: vmess
+  server: 23.227.38.22
+  port: 8080
+  cipher: auto
+  uuid: ac750859-79e7-4507-ba93-e92584ac49e3
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: per-essex-patterns-bowling.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: ac750859-79e7-4507-ba93-e92584ac49e3-vm
+    headers:
+      host: per-essex-patterns-bowling.trycloudflare.com
+- name: 油管绵阿羊_Canada_vmess_03
+  type: vmess
+  server: 23.227.38.23
+  port: 8080
+  cipher: auto
+  uuid: 5f7934bf-a228-49a7-9572-5ce4377c34d5
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: uh-lawyers-instruments-kernel.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: 5f7934bf-a228-49a7-9572-5ce4377c34d5-vm
+    headers:
+      host: uh-lawyers-instruments-kernel.trycloudflare.com
+- name: 油管绵阿羊_Canada_vmess_04
+  type: vmess
+  server: 23.227.38.44
+  port: 8080
+  cipher: auto
+  uuid: 0e5da13a-b148-4889-9d72-ad1d9d5aa9ad
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: widescreen-instruction-breakdown-postage.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: 0e5da13a-b148-4889-9d72-ad1d9d5aa9ad-vm
+    headers:
+      host: widescreen-instruction-breakdown-postage.trycloudflare.com
+- name: 油管绵阿羊_None_vmess_05
+  type: vmess
+  server: 162.159.134.23
+  port: 8080
+  cipher: auto
+  uuid: 9084653a-ee34-4293-979e-7c2b50dffb84
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: configured-creek-relating-theater.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: 9084653a-ee34-4293-979e-7c2b50dffb84-vm
+    headers:
+      host: configured-creek-relating-theater.trycloudflare.com
+- name: 油管绵阿羊_None_vmess_06
+  type: vmess
+  server: 162.159.137.31
+  port: 8080
+  cipher: auto
+  uuid: ac750859-79e7-4507-ba93-e92584ac49e3
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: per-essex-patterns-bowling.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: ac750859-79e7-4507-ba93-e92584ac49e3-vm
+    headers:
+      host: per-essex-patterns-bowling.trycloudflare.com
+- name: 油管绵阿羊_None_vmess_07
+  type: vmess
+  server: 162.159.153.11
+  port: 8080
+  cipher: auto
+  uuid: 5f7934bf-a228-49a7-9572-5ce4377c34d5
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: uh-lawyers-instruments-kernel.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: 5f7934bf-a228-49a7-9572-5ce4377c34d5-vm
+    headers:
+      host: uh-lawyers-instruments-kernel.trycloudflare.com
+- name: 油管绵阿羊_None_vmess_08
+  type: vmess
+  server: 162.159.130.208
+  port: 8080
+  cipher: auto
+  uuid: 0e5da13a-b148-4889-9d72-ad1d9d5aa9ad
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: widescreen-instruction-breakdown-postage.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: 0e5da13a-b148-4889-9d72-ad1d9d5aa9ad-vm
+    headers:
+      host: widescreen-instruction-breakdown-postage.trycloudflare.com
+- name: 油管绵阿羊_None_vmess_09
+  type: vmess
+  server: yh1.dtku41.xyz
+  port: 8080
+  cipher: auto
+  uuid: 9084653a-ee34-4293-979e-7c2b50dffb84
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: configured-creek-relating-theater.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: 9084653a-ee34-4293-979e-7c2b50dffb84-vm
+    headers:
+      host: configured-creek-relating-theater.trycloudflare.com
+- name: 油管绵阿羊_None_vmess_010
+  type: vmess
+  server: yh1.dtku41.xyz
+  port: 8080
+  cipher: auto
+  uuid: ac750859-79e7-4507-ba93-e92584ac49e3
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: per-essex-patterns-bowling.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: ac750859-79e7-4507-ba93-e92584ac49e3-vm
+    headers:
+      host: per-essex-patterns-bowling.trycloudflare.com
+- name: 油管绵阿羊_None_vmess_011
+  type: vmess
+  server: yh1.dtku41.xyz
+  port: 8080
+  cipher: auto
+  uuid: 5f7934bf-a228-49a7-9572-5ce4377c34d5
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: uh-lawyers-instruments-kernel.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: 5f7934bf-a228-49a7-9572-5ce4377c34d5-vm
+    headers:
+      host: uh-lawyers-instruments-kernel.trycloudflare.com
+- name: 油管绵阿羊_None_vmess_012
+  type: vmess
+  server: yh1.dtku41.xyz
+  port: 8080
+  cipher: auto
+  uuid: 0e5da13a-b148-4889-9d72-ad1d9d5aa9ad
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: widescreen-instruction-breakdown-postage.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: 0e5da13a-b148-4889-9d72-ad1d9d5aa9ad-vm
+    headers:
+      host: widescreen-instruction-breakdown-postage.trycloudflare.com
+- name: 油管绵阿羊_None_vmess_013
+  type: vmess
+  server: yh2.dtku41.xyz
+  port: 8080
+  cipher: auto
+  uuid: 9084653a-ee34-4293-979e-7c2b50dffb84
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: configured-creek-relating-theater.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: 9084653a-ee34-4293-979e-7c2b50dffb84-vm
+    headers:
+      host: configured-creek-relating-theater.trycloudflare.com
+- name: 油管绵阿羊_United States_vmess_014
+  type: vmess
+  server: yh2.dtku41.xyz
+  port: 8080
+  cipher: auto
+  uuid: ac750859-79e7-4507-ba93-e92584ac49e3
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: per-essex-patterns-bowling.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: ac750859-79e7-4507-ba93-e92584ac49e3-vm
+    headers:
+      host: per-essex-patterns-bowling.trycloudflare.com
+- name: 油管绵阿羊_United States_vmess_015
+  type: vmess
+  server: yh2.dtku41.xyz
+  port: 8080
+  cipher: auto
+  uuid: 5f7934bf-a228-49a7-9572-5ce4377c34d5
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: uh-lawyers-instruments-kernel.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: 5f7934bf-a228-49a7-9572-5ce4377c34d5-vm
+    headers:
+      host: uh-lawyers-instruments-kernel.trycloudflare.com
+- name: 油管绵阿羊_None_vmess_016
+  type: vmess
+  server: yh2.dtku41.xyz
+  port: 8080
+  cipher: auto
+  uuid: 0e5da13a-b148-4889-9d72-ad1d9d5aa9ad
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: widescreen-instruction-breakdown-postage.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: 0e5da13a-b148-4889-9d72-ad1d9d5aa9ad-vm
+    headers:
+      host: widescreen-instruction-breakdown-postage.trycloudflare.com
 - name: 油管绵阿羊_United States_vless_11
   type: vless
   server: 64.31.55.42
@@ -38,6 +278,66 @@ proxies:
   reality-opts:
     public-key: ew6CB407JaI_WVD7QlD5QuvJTD7Pbv1oEbtis35-MRM
   client-fingerprint: chrome
+- name: 油管绵阿羊_None_vmess_12
+  type: vmess
+  server: fbi.gov
+  port: 8080
+  cipher: auto
+  uuid: 9084653a-ee34-4293-979e-7c2b50dffb84
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: configured-creek-relating-theater.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: 9084653a-ee34-4293-979e-7c2b50dffb84-vm
+    headers:
+      host: configured-creek-relating-theater.trycloudflare.com
+- name: 油管绵阿羊_None_vmess_13
+  type: vmess
+  server: fbi.gov
+  port: 8080
+  cipher: auto
+  uuid: ac750859-79e7-4507-ba93-e92584ac49e3
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: per-essex-patterns-bowling.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: ac750859-79e7-4507-ba93-e92584ac49e3-vm
+    headers:
+      host: per-essex-patterns-bowling.trycloudflare.com
+- name: 油管绵阿羊_None_vmess_14
+  type: vmess
+  server: fbi.gov
+  port: 8080
+  cipher: auto
+  uuid: 5f7934bf-a228-49a7-9572-5ce4377c34d5
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: uh-lawyers-instruments-kernel.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: 5f7934bf-a228-49a7-9572-5ce4377c34d5-vm
+    headers:
+      host: uh-lawyers-instruments-kernel.trycloudflare.com
+- name: 油管绵阿羊_None_vmess_15
+  type: vmess
+  server: fbi.gov
+  port: 8080
+  cipher: auto
+  uuid: 0e5da13a-b148-4889-9d72-ad1d9d5aa9ad
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: widescreen-instruction-breakdown-postage.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: 0e5da13a-b148-4889-9d72-ad1d9d5aa9ad-vm
+    headers:
+      host: widescreen-instruction-breakdown-postage.trycloudflare.com
 - name: 油管绵阿羊_None_vmess_21
   type: vmess
   server: fbi.gov
@@ -4658,9 +4958,9 @@ proxies:
     path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm
     headers:
       host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-- name: 油管绵阿羊_None_vmess_31
+- name: 油管绵阿羊_United States_vmess_31
   type: vmess
-  server: 162.159.134.23
+  server: yh1.dtku41.xyz
   port: 8080
   cipher: auto
   uuid: 9084653a-ee34-4293-979e-7c2b50dffb84
@@ -4675,7 +4975,7 @@ proxies:
       host: configured-creek-relating-theater.trycloudflare.com
 - name: 油管绵阿羊_None_vmess_32
   type: vmess
-  server: 162.159.137.31
+  server: yh1.dtku41.xyz
   port: 8080
   cipher: auto
   uuid: ac750859-79e7-4507-ba93-e92584ac49e3
@@ -4690,7 +4990,7 @@ proxies:
       host: per-essex-patterns-bowling.trycloudflare.com
 - name: 油管绵阿羊_None_vmess_33
   type: vmess
-  server: 162.159.153.11
+  server: yh1.dtku41.xyz
   port: 8080
   cipher: auto
   uuid: 5f7934bf-a228-49a7-9572-5ce4377c34d5
@@ -4703,9 +5003,9 @@ proxies:
     path: 5f7934bf-a228-49a7-9572-5ce4377c34d5-vm
     headers:
       host: uh-lawyers-instruments-kernel.trycloudflare.com
-- name: 油管绵阿羊_None_vmess_34
+- name: 油管绵阿羊_United States_vmess_34
   type: vmess
-  server: 162.159.130.208
+  server: yh1.dtku41.xyz
   port: 8080
   cipher: auto
   uuid: 0e5da13a-b148-4889-9d72-ad1d9d5aa9ad
@@ -6489,7 +6789,27 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
+  - 油管绵阿羊_Canada_vmess_01
+  - 油管绵阿羊_Canada_vmess_02
+  - 油管绵阿羊_Canada_vmess_03
+  - 油管绵阿羊_Canada_vmess_04
+  - 油管绵阿羊_None_vmess_05
+  - 油管绵阿羊_None_vmess_06
+  - 油管绵阿羊_None_vmess_07
+  - 油管绵阿羊_None_vmess_08
+  - 油管绵阿羊_None_vmess_09
+  - 油管绵阿羊_None_vmess_010
+  - 油管绵阿羊_None_vmess_011
+  - 油管绵阿羊_None_vmess_012
+  - 油管绵阿羊_None_vmess_013
+  - 油管绵阿羊_United States_vmess_014
+  - 油管绵阿羊_United States_vmess_015
+  - 油管绵阿羊_None_vmess_016
   - 油管绵阿羊_United States_vless_11
+  - 油管绵阿羊_None_vmess_12
+  - 油管绵阿羊_None_vmess_13
+  - 油管绵阿羊_None_vmess_14
+  - 油管绵阿羊_None_vmess_15
   - 油管绵阿羊_None_vmess_21
   - 油管绵阿羊_None_vmess_22
   - 油管绵阿羊_None_vmess_23
@@ -6798,10 +7118,10 @@ proxy-groups:
   - 油管绵阿羊_United States_vmess_2306
   - 油管绵阿羊_United States_vmess_2307
   - 油管绵阿羊_United States_vmess_2308
-  - 油管绵阿羊_None_vmess_31
+  - 油管绵阿羊_United States_vmess_31
   - 油管绵阿羊_None_vmess_32
   - 油管绵阿羊_None_vmess_33
-  - 油管绵阿羊_None_vmess_34
+  - 油管绵阿羊_United States_vmess_34
   - 油管绵阿羊_Canada_vmess_41
   - 油管绵阿羊_Canada_vmess_42
   - 油管绵阿羊_Canada_vmess_43
@@ -6929,7 +7249,27 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
+  - 油管绵阿羊_Canada_vmess_01
+  - 油管绵阿羊_Canada_vmess_02
+  - 油管绵阿羊_Canada_vmess_03
+  - 油管绵阿羊_Canada_vmess_04
+  - 油管绵阿羊_None_vmess_05
+  - 油管绵阿羊_None_vmess_06
+  - 油管绵阿羊_None_vmess_07
+  - 油管绵阿羊_None_vmess_08
+  - 油管绵阿羊_None_vmess_09
+  - 油管绵阿羊_None_vmess_010
+  - 油管绵阿羊_None_vmess_011
+  - 油管绵阿羊_None_vmess_012
+  - 油管绵阿羊_None_vmess_013
+  - 油管绵阿羊_United States_vmess_014
+  - 油管绵阿羊_United States_vmess_015
+  - 油管绵阿羊_None_vmess_016
   - 油管绵阿羊_United States_vless_11
+  - 油管绵阿羊_None_vmess_12
+  - 油管绵阿羊_None_vmess_13
+  - 油管绵阿羊_None_vmess_14
+  - 油管绵阿羊_None_vmess_15
   - 油管绵阿羊_None_vmess_21
   - 油管绵阿羊_None_vmess_22
   - 油管绵阿羊_None_vmess_23
@@ -7238,10 +7578,10 @@ proxy-groups:
   - 油管绵阿羊_United States_vmess_2306
   - 油管绵阿羊_United States_vmess_2307
   - 油管绵阿羊_United States_vmess_2308
-  - 油管绵阿羊_None_vmess_31
+  - 油管绵阿羊_United States_vmess_31
   - 油管绵阿羊_None_vmess_32
   - 油管绵阿羊_None_vmess_33
-  - 油管绵阿羊_None_vmess_34
+  - 油管绵阿羊_United States_vmess_34
   - 油管绵阿羊_Canada_vmess_41
   - 油管绵阿羊_Canada_vmess_42
   - 油管绵阿羊_Canada_vmess_43
