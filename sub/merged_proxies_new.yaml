@@ -66,7 +66,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
     headers:
       host: hang-broke-john-neither.trycloudflare.com
-- name: 油管绵阿羊_United States_vmess_13
+- name: 油管绵阿羊_None_vmess_13
   type: vmess
   server: yh4.dtku41.xyz
   port: 8080
@@ -372,7 +372,7 @@ proxy-groups:
   - 油管绵阿羊_United States_hysteria2_01
   - 油管绵阿羊_None_vmess_11
   - 油管绵阿羊_None_vmess_12
-  - 油管绵阿羊_United States_vmess_13
+  - 油管绵阿羊_None_vmess_13
   - 油管绵阿羊_None_vmess_14
   - 油管绵阿羊_United States_vless_21
   - 油管绵阿羊_United States_vless_31
@@ -400,7 +400,7 @@ proxy-groups:
   - 油管绵阿羊_United States_hysteria2_01
   - 油管绵阿羊_None_vmess_11
   - 油管绵阿羊_None_vmess_12
-  - 油管绵阿羊_United States_vmess_13
+  - 油管绵阿羊_None_vmess_13
   - 油管绵阿羊_None_vmess_14
   - 油管绵阿羊_United States_vless_21
   - 油管绵阿羊_United States_vless_31
