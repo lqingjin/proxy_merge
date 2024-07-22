@@ -1468,7 +1468,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: 油管绵阿羊_None_vmess_096
+- name: 油管绵阿羊_United States_vmess_096
   type: vmess
   server: japan.com
   port: 2086
@@ -1498,7 +1498,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: 油管绵阿羊_None_vmess_098
+- name: 油管绵阿羊_United States_vmess_098
   type: vmess
   server: russia.com
   port: 2086
@@ -1513,7 +1513,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: 油管绵阿羊_None_vmess_099
+- name: 油管绵阿羊_United States_vmess_099
   type: vmess
   server: singapore.com
   port: 2086
@@ -2461,37 +2461,37 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: 油管绵阿羊_France_hy2_0
+- name: 油管绵阿羊_United States_hy2_0
   type: hysteria2
-  server: 51.159.34.216
-  port: 7571
+  server: 173.234.31.99
+  port: 56549
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: ''
   skip-cert-verify: true
 - name: 油管绵阿羊_United States_hy2_1
   type: hysteria2
-  server: 108.181.24.39
-  port: 60714
+  server: 173.234.31.99
+  port: 56549
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: ''
   skip-cert-verify: true
 - name: 油管绵阿羊_United States_hy2_2
   type: hysteria2
-  server: 108.181.24.39
-  port: 60714
+  server: 173.234.31.99
+  port: 56549
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: ''
   skip-cert-verify: true
 - name: 油管绵阿羊_United States_hy2_3
   type: hysteria2
-  server: 108.181.24.39
-  port: 60714
+  server: 173.234.31.99
+  port: 56549
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: ''
   skip-cert-verify: true
 - name: 油管绵阿羊_France_reality_0
   type: vless
@@ -2623,10 +2623,10 @@ proxy-groups:
   - 油管绵阿羊_Canada_vmess_093
   - 油管绵阿羊_None_vmess_094
   - 油管绵阿羊_United States_vmess_095
-  - 油管绵阿羊_None_vmess_096
+  - 油管绵阿羊_United States_vmess_096
   - 油管绵阿羊_None_vmess_097
-  - 油管绵阿羊_None_vmess_098
-  - 油管绵阿羊_None_vmess_099
+  - 油管绵阿羊_United States_vmess_098
+  - 油管绵阿羊_United States_vmess_099
   - 油管绵阿羊_United States_vmess_0100
   - 油管绵阿羊_None_vmess_0101
   - 油管绵阿羊_None_vmess_11
@@ -2690,7 +2690,7 @@ proxy-groups:
   - 油管绵阿羊_United States_hy_1
   - 油管绵阿羊_United States_hy_2
   - 油管绵阿羊_United States_hy_3
-  - 油管绵阿羊_France_hy2_0
+  - 油管绵阿羊_United States_hy2_0
   - 油管绵阿羊_United States_hy2_1
   - 油管绵阿羊_United States_hy2_2
   - 油管绵阿羊_United States_hy2_3
@@ -2793,10 +2793,10 @@ proxy-groups:
   - 油管绵阿羊_Canada_vmess_093
   - 油管绵阿羊_None_vmess_094
   - 油管绵阿羊_United States_vmess_095
-  - 油管绵阿羊_None_vmess_096
+  - 油管绵阿羊_United States_vmess_096
   - 油管绵阿羊_None_vmess_097
-  - 油管绵阿羊_None_vmess_098
-  - 油管绵阿羊_None_vmess_099
+  - 油管绵阿羊_United States_vmess_098
+  - 油管绵阿羊_United States_vmess_099
   - 油管绵阿羊_United States_vmess_0100
   - 油管绵阿羊_None_vmess_0101
   - 油管绵阿羊_None_vmess_11
@@ -2860,7 +2860,7 @@ proxy-groups:
   - 油管绵阿羊_United States_hy_1
   - 油管绵阿羊_United States_hy_2
   - 油管绵阿羊_United States_hy_3
-  - 油管绵阿羊_France_hy2_0
+  - 油管绵阿羊_United States_hy2_0
   - 油管绵阿羊_United States_hy2_1
   - 油管绵阿羊_United States_hy2_2
   - 油管绵阿羊_United States_hy2_3
@@ -2963,10 +2963,10 @@ proxy-groups:
   - 油管绵阿羊_Canada_vmess_093
   - 油管绵阿羊_None_vmess_094
   - 油管绵阿羊_United States_vmess_095
-  - 油管绵阿羊_None_vmess_096
+  - 油管绵阿羊_United States_vmess_096
   - 油管绵阿羊_None_vmess_097
-  - 油管绵阿羊_None_vmess_098
-  - 油管绵阿羊_None_vmess_099
+  - 油管绵阿羊_United States_vmess_098
+  - 油管绵阿羊_United States_vmess_099
   - 油管绵阿羊_United States_vmess_0100
   - 油管绵阿羊_None_vmess_0101
   - 油管绵阿羊_None_vmess_11
@@ -3030,7 +3030,7 @@ proxy-groups:
   - 油管绵阿羊_United States_hy_1
   - 油管绵阿羊_United States_hy_2
   - 油管绵阿羊_United States_hy_3
-  - 油管绵阿羊_France_hy2_0
+  - 油管绵阿羊_United States_hy2_0
   - 油管绵阿羊_United States_hy2_1
   - 油管绵阿羊_United States_hy2_2
   - 油管绵阿羊_United States_hy2_3
