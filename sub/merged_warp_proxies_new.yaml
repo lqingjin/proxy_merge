@@ -1438,7 +1438,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: 油管绵阿羊_None_vmess_094
+- name: 油管绵阿羊_United States_vmess_094
   type: vmess
   server: icook.tw
   port: 2086
@@ -1468,7 +1468,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: 油管绵阿羊_None_vmess_096
+- name: 油管绵阿羊_United States_vmess_096
   type: vmess
   server: japan.com
   port: 2086
@@ -1528,7 +1528,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: 油管绵阿羊_United States_vmess_0100
+- name: 油管绵阿羊_None_vmess_0100
   type: vmess
   server: skk.moe
   port: 2086
@@ -2093,11 +2093,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip006.dtku47.xyz
+  servername: ip006.3196772.xyz
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip006.dtku47.xyz
+      Host: ip006.3196772.xyz
 - name: 油管绵阿羊_Canada_vmess_32
   type: vmess
   server: 23.227.38.6
@@ -2108,11 +2108,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip006.dtku47.xyz
+  servername: ip006.3196772.xyz
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip006.dtku47.xyz
+      Host: ip006.3196772.xyz
 - name: 油管绵阿羊_None_vmess_33
   type: vmess
   server: 104.19.51.232
@@ -2123,11 +2123,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip006.dtku47.xyz
+  servername: ip006.3196772.xyz
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip006.dtku47.xyz
+      Host: ip006.3196772.xyz
 - name: 油管绵阿羊_None_vmess_34
   type: vmess
   server: 104.19.38.62
@@ -2138,11 +2138,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip006.dtku47.xyz
+  servername: ip006.3196772.xyz
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip006.dtku47.xyz
+      Host: ip006.3196772.xyz
 - name: 油管绵阿羊_None_vmess_41
   type: vmess
   server: 104.19.46.233
@@ -2153,11 +2153,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip005.dtku47.xyz
+  servername: ip005.3196772.xyz
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip005.dtku47.xyz
+      Host: ip005.3196772.xyz
 - name: 油管绵阿羊_Canada_vmess_42
   type: vmess
   server: 23.227.38.6
@@ -2168,11 +2168,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip005.dtku47.xyz
+  servername: ip005.3196772.xyz
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip005.dtku47.xyz
+      Host: ip005.3196772.xyz
 - name: 油管绵阿羊_None_vmess_43
   type: vmess
   server: 104.19.51.232
@@ -2183,11 +2183,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip005.dtku47.xyz
+  servername: ip005.3196772.xyz
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip005.dtku47.xyz
+      Host: ip005.3196772.xyz
 - name: 油管绵阿羊_None_vmess_44
   type: vmess
   server: 104.19.38.62
@@ -2198,11 +2198,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip005.dtku47.xyz
+  servername: ip005.3196772.xyz
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip005.dtku47.xyz
+      Host: ip005.3196772.xyz
 - name: Unknown_ss_51
   type: ss
   server: 23.170.40.77
@@ -2621,13 +2621,13 @@ proxy-groups:
   - 油管绵阿羊_United States_vmess_091
   - 油管绵阿羊_None_vmess_092
   - 油管绵阿羊_Canada_vmess_093
-  - 油管绵阿羊_None_vmess_094
+  - 油管绵阿羊_United States_vmess_094
   - 油管绵阿羊_United States_vmess_095
-  - 油管绵阿羊_None_vmess_096
+  - 油管绵阿羊_United States_vmess_096
   - 油管绵阿羊_None_vmess_097
   - 油管绵阿羊_None_vmess_098
   - 油管绵阿羊_None_vmess_099
-  - 油管绵阿羊_United States_vmess_0100
+  - 油管绵阿羊_None_vmess_0100
   - 油管绵阿羊_None_vmess_0101
   - 油管绵阿羊_None_vmess_11
   - 油管绵阿羊_None_vmess_12
@@ -2791,13 +2791,13 @@ proxy-groups:
   - 油管绵阿羊_United States_vmess_091
   - 油管绵阿羊_None_vmess_092
   - 油管绵阿羊_Canada_vmess_093
-  - 油管绵阿羊_None_vmess_094
+  - 油管绵阿羊_United States_vmess_094
   - 油管绵阿羊_United States_vmess_095
-  - 油管绵阿羊_None_vmess_096
+  - 油管绵阿羊_United States_vmess_096
   - 油管绵阿羊_None_vmess_097
   - 油管绵阿羊_None_vmess_098
   - 油管绵阿羊_None_vmess_099
-  - 油管绵阿羊_United States_vmess_0100
+  - 油管绵阿羊_None_vmess_0100
   - 油管绵阿羊_None_vmess_0101
   - 油管绵阿羊_None_vmess_11
   - 油管绵阿羊_None_vmess_12
@@ -2961,13 +2961,13 @@ proxy-groups:
   - 油管绵阿羊_United States_vmess_091
   - 油管绵阿羊_None_vmess_092
   - 油管绵阿羊_Canada_vmess_093
-  - 油管绵阿羊_None_vmess_094
+  - 油管绵阿羊_United States_vmess_094
   - 油管绵阿羊_United States_vmess_095
-  - 油管绵阿羊_None_vmess_096
+  - 油管绵阿羊_United States_vmess_096
   - 油管绵阿羊_None_vmess_097
   - 油管绵阿羊_None_vmess_098
   - 油管绵阿羊_None_vmess_099
-  - 油管绵阿羊_United States_vmess_0100
+  - 油管绵阿羊_None_vmess_0100
   - 油管绵阿羊_None_vmess_0101
   - 油管绵阿羊_None_vmess_11
   - 油管绵阿羊_None_vmess_12
